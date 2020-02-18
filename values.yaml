@@ -9,7 +9,7 @@ admissionController:
   replicaCount: 1
   image:
     repository: k8s.gcr.io/vpa-admission-controller
-    tag: 0.4.1
+    tag: 0.5.0
     pullPolicy: IfNotPresent
 
   resources:
@@ -45,7 +45,7 @@ recommender:
   replicaCount: 1
   image:
     repository: k8s.gcr.io/vpa-recommender
-    tag: 0.4.1
+    tag: 0.5.0
     pullPolicy: IfNotPresent
 
   logLevel: 10
@@ -81,7 +81,7 @@ updater:
   replicaCount: 1
   image:
     repository: k8s.gcr.io/vpa-updater
-    tag: 0.4.1
+    tag: 0.5.0
     pullPolicy: IfNotPresent
 
   resources:
